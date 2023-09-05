@@ -49,8 +49,6 @@
 					this.loading = false;
 				})
 				.catch((error) => {
-					localStorage.setItem('token', '');
-					this.$router.push('/login');
 					this.loading = false;
 				});
 			},
